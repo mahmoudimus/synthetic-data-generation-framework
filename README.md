@@ -18,8 +18,8 @@ The SGF tool is a synthetic data generator. Starting from a sensitive input data
 
 The tool consists of three executable programs: `sgfinit`, `sgfgen`, and `sgfextract`.
 
-- `sgfinitis` used to convert the input data into a format suitable for data synthesis.
-- `sgfgenis` used to perform the actual synthesis of the data, it will produce a set of candidate synthetic records.
+- `sgfinit` used to convert the input data into a format suitable for data synthesis.
+- `sgfgen` used to perform the actual synthesis of the data, it will produce a set of candidate synthetic records.
 - `sgfextract` takes a set of candidate synthetic records produced bysgfgenand extracts a subset of synthetic records.
 
 ## 3 Setup & Compilation
